@@ -1,7 +1,7 @@
 # Object-extractor-from-a-image
 
 ## Problem
-In today's age, as everything has come online, everything that can be automated should be automated. Educational institutes use online LMS to automate most of their day to day activities. One of them include assignment submission and checking. It's very seamless to create a MCQ based exam and get it automatically evaluated. But the problem occurs when the requirement is of having questions/assignments based on <b>Images<b>.
+In today's age, as everything has come online, everything that can be automated should be automated. Educational institutes use online LMS to automate most of their day to day activities. One of them includes assignment submission and checking. It's very seamless to create a MCQ based exam and get it automatically evaluated. But the problem occurs when the requirement is of having questions/assignments based on <b>Diagrams<b>.
 
 ## Proposed Solution
 The above problem can be solved with the help of Deep Learning & Computer Vision. This repository contains a Custom Object Detector made with the Yolov4 object detection model and Darknet.
@@ -18,7 +18,7 @@ The above problem can be solved with the help of Deep Learning & Computer Vision
 
 ## Training the model
 1. [50 images](Training) were manually labelled using LabelImg and used as the training dataset for the model. 
-2. One class called as 'object' was used to identify the object-images in a particular image.
+2. One class called as 'object' was used to identify the diagrams in a particular image.
 3. The model was trained on Google Collab, here is the [File](https://colab.research.google.com/drive/1OA_iwX2PsMf0gyXtuGiTIGuVb0PzhMNF?usp=sharing).
 4. The configuration and setup related to the training of the model are specified within the Collab File linked above.
 
