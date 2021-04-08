@@ -1,4 +1,4 @@
-# Object-extractor-from-a-image
+# Diagram-Extractor-With-Yolov4-Computer-Vision
 
 ## Problem
 In today's age, as everything has come online, everything that can be automated should be automated. Educational institutes use online LMS to automate most of their day to day activities. One of them includes assignment submission and checking. It's very seamless to create a MCQ based exam and get it automatically evaluated. But the problem occurs when the requirement is of having questions/assignments based on <b>Diagrams<b>.
